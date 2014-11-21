@@ -1,10 +1,10 @@
-[submodule "libffi"]
-	path = libffi
-	url = git://github.com/SaurikIT/libffi.git
-	ignore = dirty
-	fetchRecurseSubmodules = true
 [submodule "readline"]
 	path = readline
 	url = git://git.savannah.gnu.org/readline.git
-	ignore = dirty
 	fetchRecurseSubmodules = true
+	ignore = all
+[submodule "libffi"]
+	path = libffi
+	url = git://github.com/SaurikIT/libffi.git
+	fetchRecurseSubmodules = true
+	ignore = all
